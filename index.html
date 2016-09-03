@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lina's Blog</title>
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Nixie+One" rel="stylesheet">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/9b41b9103b.js"></script>
+</head>
+<body>
+	<div class="container">
+		<aside class="sidebar">
+			<h1 id="aside-title">Lina Does Blog</h1>
+			<img class="my-photo" src="img/my-photo" class="img-responsive img-circle" alt="my-photo">
+			<nav class="nav">
+				<ul class="menu">
+					<li id="home"><a href="#/Home">HOME</a></li>
+					<li id="about"><a href="#/About">ABOUT ME</a></li>
+					<li id="daily"><a href="#/Daily">DAILY LIFE</a></li>
+					<li id="travel"><a href="#/Travel">TRAVEL LIFE</a></li>
+					<li id="coding"><a href="#/Coding">CODING LIFE</a></li>
+					<li id="contact"><a href="#/Contact">CONTACT</a></li>
+				</ul>
+			</nav>
+			<!-- calendar directive -->
+			<div class="social">
+				<ul class="social">
+					<li id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+					<li id="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+					<li id="github"><i class="fa fa-github-alt" aria-hidden="true"></i></li>
+				</ul>
+			</div>
+		</aside>
+		<main>
+			<header>
+				<h1 id="header-title">Hi, my name is Lina!</h1>
+				<h2 id="header-subtitle">I'm Front-End Developer living in Charlotte.</h2>
+			</header>
+			<!-- For templating -->
+			<section id="latest-posts">
+				<div class="post-1">
+					<img src="img/1.png" alt="post1-img">
+					<div class="date">
+						<p class="day">03</p><br>
+						<p class="month">Jan</p><br>
+						<p class="year">2016</p>
+					</div>
+					<div class="post-brief">
+						<h3 class="post-title">Hello World!</h3>
+						
+					</div>
+				</div>
+			</section>
+		</main>
+	</div>
+
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
